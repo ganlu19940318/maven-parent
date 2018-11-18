@@ -6,7 +6,7 @@
 
     <groupId>com.hust.maven</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <!-- 继承 -->
@@ -16,11 +16,6 @@
         <version>2.0.5.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-
-    <!-- 归类依赖版本 -->
-    <properties>
-        <hust.mvn.common.version>1.0.0.RELEASE</hust.mvn.common.version>
-    </properties>
 
     <modules>
         <module>maven-controller</module>
@@ -33,19 +28,19 @@
         <dependencies>
             <!-- 内部依赖 -->
             <dependency>
-                <groupId>com.hust.mvn</groupId>
-                <artifactId>mvn-controller</artifactId>
-                <version>${hust.mvn.common.version}</version>
+                <groupId>com.hust.maven</groupId>
+                <artifactId>maven-controller</artifactId>
+                <version>1.0.0.RELEASE</version>
             </dependency>
             <dependency>
-                <groupId>com.hust.mvn</groupId>
-                <artifactId>mvn-service</artifactId>
-                <version>${hust.mvn.common.version}</version>
+                <groupId>com.hust.maven</groupId>
+                <artifactId>maven-service</artifactId>
+                <version>1.0.0.RELEASE</version>
             </dependency>
             <dependency>
-                <groupId>com.hust.mvn</groupId>
-                <artifactId>mvn-starter</artifactId>
-                <version>${hust.mvn.common.version}</version>
+                <groupId>com.hust.maven</groupId>
+                <artifactId>maven-starter</artifactId>
+                <version>1.0.0.RELEASE</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
