@@ -1,4 +1,5 @@
 package com.hust.maven.mavenservice;
 
-public class DemoService {
+public interface DemoService {
+    String hello();
 }

@@ -18,6 +18,14 @@
     </parent>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.hust.maven</groupId>
+            <artifactId>maven-service</artifactId>
+        </dependency>
 
     </dependencies>
 

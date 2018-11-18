@@ -27,6 +27,10 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.hust.maven</groupId>
+            <artifactId>maven-controller</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
